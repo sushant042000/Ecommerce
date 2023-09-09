@@ -1,0 +1,39 @@
+.navbar {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 10px 30px;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  gap: 7px;
+  list-style: none;
+}
+.left {
+  display: flex;
+  gap: 7px;
+}
+
+.cart-icon {
+  display: flex;
+}
+
+.item {
+  display: flex;
+}
+
+#cart {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(92, 92, 255);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
